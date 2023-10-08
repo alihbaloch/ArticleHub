@@ -1,7 +1,11 @@
 # ArticleHub
 
-## A web application written in Python with Django backend and html, css and javascript for frontend. It uses NEWSAPI to get information about news articles and displays the article titles, images, descriptions, and url's to the user.
-
+## Project Description 
+* Utilizes Python and Django for backend development
+* Employs HTML, CSS, and JavaScript for frontend components
+* Integrates NEWSAPI to gather data on news articles
+* Presents article titles, images, descriptions, and URL links to users
+ 
 ## [Watch the Video Demo](https://vimeo.com/869726456)
 
 ## Features:
