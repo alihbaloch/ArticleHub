@@ -1,10 +1,12 @@
 import requests
 from django.shortcuts import render
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 # API key to fetch news data from NEWSAPI
-API_KEY ="a8d520a0f5ae46b080e06b4ab02a2346"
-
+API_KEY = os.getenv("API_KEY")
 
 def api_error(request):
     """
